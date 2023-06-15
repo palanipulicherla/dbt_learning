@@ -1,0 +1,8 @@
+version: 2
+sources:
+  - name: kenvue
+    description: source tpch data
+    database: pacvue_kenvue
+    schema: kenvue
+    tables:
+      - name: pacvue
