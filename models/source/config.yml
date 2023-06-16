@@ -2,7 +2,7 @@ version: 2
 sources:
   - name: kenvue
     description: source tpch data
-    database: SANDBOX_CONSUMER360_ECOMMERCE
-    schema: pacvue_raw
+    database: pacvue_kenvue
+    schema: KENVUE
     tables:
-      - name: pacvue
+      - name: KENVUE_AMAZON_AD__DAYREPORT_CAMPAIGN
