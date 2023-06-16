@@ -2,7 +2,7 @@ version: 2
 sources:
   - name: kenvue
     description: source tpch data
-    database: pacvue_kenvue
-    schema: kenvue
+    database: SANDBOX_CONSUMER360_ECOMMERCE
+    schema: pacvue_raw
     tables:
       - name: pacvue
