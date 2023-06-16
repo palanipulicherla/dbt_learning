@@ -5,7 +5,7 @@
 }}
 with source as (
 
-    select * from {{ source('kenvue', 'pacvue') }}
+    select * from {{ source('kenvue', 'KENVUE_AMAZON_AD__DAYREPORT_CAMPAIGN') }}
  
 ),
 
